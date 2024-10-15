@@ -45,17 +45,16 @@ main {
   box-shadow: 4px 4px 10px -4px #ccc;
 }
 .image-container .image {
-  background: url(meysam-jarahkar-LI7jB1925j0-unsplash.jpg);
+  background: url("./Profile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   width: 300px;
   height: 500px;
   border-radius: 200px;
 }
 
 .content {
-  margin: 3rem 0;
+  margin: 3rem 1rem;
   font-family: sans-serif;
 }
 .content .badge-label {
@@ -71,14 +70,14 @@ main {
 .pills-container {
   display: grid;
   grid-template-columns: 100px 100px 100px;
-  gap: 10px;
+  gap: 30px;
 }
 .pills-container .pill {
   border: 2px solid white;
   box-shadow: 4px 4px 10px -4px #ccc;
   padding: 10px 20px;
   border-radius: 100px;
-  width: 100px;
+  width: fit-content;
   text-align: center;
 }
 
